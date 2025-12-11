@@ -1,3 +1,5 @@
+import type { JSX } from "react";
+
 interface ScrollIndicatorProps {
   visible: boolean;
   text?: string;

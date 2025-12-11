@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 import { Section } from "../components";
 
 export function Hero(): JSX.Element {

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import type { JSX } from "react";
 
 interface SectionDividerProps {
   className?: string;

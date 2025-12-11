@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 import { AnimatedSection, GitHubIcon, ExternalLinkIcon, Tag } from "../components";
 import type { Project } from "../types";
 

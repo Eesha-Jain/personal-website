@@ -1,5 +1,6 @@
 "use client";
 
+import type { JSX } from "react";
 import type { ScrollState, WaveColor } from "../types";
 import { WaveLayer, WAVE_PATHS } from "./WaveLayer";
 

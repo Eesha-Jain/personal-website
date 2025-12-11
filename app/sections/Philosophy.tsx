@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 import { AnimatedSection } from "../components";
 
 const PHILOSOPHY_POINTS = [

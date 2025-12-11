@@ -1,5 +1,6 @@
 "use client";
 
+import type { JSX } from "react";
 import type { NavItem } from "../types";
 
 interface SideNavProps {

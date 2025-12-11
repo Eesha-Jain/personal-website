@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 import { Section } from "../components";
 
 export function About(): JSX.Element {

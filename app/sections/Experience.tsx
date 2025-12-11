@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 import { AnimatedSection, Tag } from "../components";
 import type { Experience as ExperienceType } from "../types";
 
