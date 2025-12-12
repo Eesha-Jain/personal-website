@@ -4,21 +4,21 @@ import { AnimatedSection } from "../components";
 const PHILOSOPHY_POINTS = [
   {
     number: "01",
-    title: "Stay Curious",
+    title: "Stoicism",
     description:
-      "The moment you think you know everything is the moment you stop growing. I try to approach every day with the mindset of a student — there's always something new to learn, someone to learn from, or a perspective I haven't considered.",
+      "Stoicism helps me focus on what I can actually control: my choices, my reactions, and the way I carry myself. I can't dictate outcomes or other people, but I can decide how I show up.",
   },
   {
     number: "02",
-    title: "Done > Perfect",
+    title: "Eudaimonism",
     description:
-      "Perfectionism can be paralyzing. I've learned that shipping something good and iterating is almost always better than waiting for perfect. The best feedback comes from the real world, not from endless planning.",
+      "I believe a good life isn't just about achievement, it's about flourishing. To me, happiness comes from pursuing meaning, investing in people, and contributing to the world around me.",
   },
   {
     number: "03",
-    title: "Be Kind, Always",
+    title: "Empiricism",
     description:
-      "Everyone you meet is fighting a battle you know nothing about. Whether it's in code reviews, conversations, or just daily interactions — a little kindness goes a long way. Tech is hard enough without people being difficult.",
+      "I learn best by doing. Watching or memorizing ideas only gets you so far. Real understanding comes from trying, failing, adjusting, and trying again.",
   },
 ];
 
@@ -27,7 +27,7 @@ export function Philosophy(): JSX.Element {
     <AnimatedSection id="philosophy" className="section-container snap-section">
       <div className="section-content">
         <div className="section-title">
-          <h2>how i try to live</h2>
+          <h2>life philosophy</h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-3">
           {PHILOSOPHY_POINTS.map((point) => (
@@ -36,7 +36,7 @@ export function Philosophy(): JSX.Element {
                 <span className="philosophy-number">{point.number}</span>
               </div>
               <h3 className="mb-2 text-lg">{point.title}</h3>
-              <p className="text-sm text-muted leading-relaxed">{point.description}</p>
+              <p className="text-muted leading-relaxed">{point.description}</p>
             </div>
           ))}
         </div>

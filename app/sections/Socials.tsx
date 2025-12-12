@@ -41,7 +41,7 @@ export function Socials(): JSX.Element {
         <div className="section-title">
           <h2>let&apos;s connect</h2>
         </div>
-        <p className="section-text-sm mb-8">
+        <p className="section-text mb-8">
           I love connecting with curious, ambitious, and thoughtful people. 
           Whether it's sharing ideas, exchanging perspectives, or exploring ways 
           to collaborate, I'd love to start a conversation and hear what you're working on.
