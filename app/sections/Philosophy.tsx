@@ -4,22 +4,22 @@ import { AnimatedSection } from "../components";
 const PHILOSOPHY_POINTS = [
   {
     number: "01",
-    title: "Stoicism",
-    description:
-      "Stoicism helps me focus on what I can actually control: my choices, my reactions, and the way I carry myself. I can't dictate outcomes or other people, but I can decide how I show up.",
-  },
-  {
-    number: "02",
     title: "Eudaimonism",
     description:
       "I believe a good life isn't just about achievement, it's about flourishing. To me, happiness comes from pursuing meaning, investing in people, and contributing to the world around me.",
   },
   {
-    number: "03",
+    number: "02",
     title: "Empiricism",
     description:
       "I learn best by doing. Watching or memorizing ideas only gets you so far. Real understanding comes from trying, failing, adjusting, and trying again.",
   },
+  {
+    number: "03",
+    title: "Stoicism",
+    description:
+      "Stoicism helps me focus on what I can actually control: my choices, my reactions, and the way I carry myself. I can't dictate outcomes or other people, but I can decide how I show up.",
+  }
 ];
 
 export function Philosophy(): JSX.Element {
