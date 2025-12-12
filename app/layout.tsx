@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Eesha Jain | Software Engineer",
   description:
-    "Software engineer passionate about building elegant solutions to complex problems.",
+    "Software engineer driven by curiosity, rigor, and passion to tackle hard problems",
 };
 
 interface RootLayoutProps {
