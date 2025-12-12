@@ -18,6 +18,7 @@ export interface Experience {
   readonly period: string;
   readonly description: string;
   readonly technologies?: readonly string[];
+  readonly github?: readonly string[];
 }
 
 export interface Project {

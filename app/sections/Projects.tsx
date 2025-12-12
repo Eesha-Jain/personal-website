@@ -2,32 +2,14 @@ import type { JSX } from "react";
 import { AnimatedSection, GitHubIcon, ExternalLinkIcon, Tag } from "../components";
 import type { Project } from "../types";
 
-// TODO: Update with your actual projects
 const PROJECTS: Project[] = [
   {
     id: "1",
-    title: "Project One",
+    title: "iDrop Calendar",
     description:
-      "A full-stack web application that helps users manage their daily tasks with a beautiful, intuitive interface. Features real-time updates and collaborative features.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
-    link: "https://example.com",
-    github: "https://github.com/username/project",
-  },
-  {
-    id: "2",
-    title: "Project Two",
-    description:
-      "An open-source library that simplifies complex data transformations with a clean, functional API. Used by developers worldwide.",
-    technologies: ["TypeScript", "Node.js", "Jest", "GitHub Actions"],
-    github: "https://github.com/username/project",
-  },
-  {
-    id: "3",
-    title: "Project Three",
-    description:
-      "A mobile-first progressive web app for tracking personal fitness goals and visualizing progress over time with beautiful charts.",
-    technologies: ["React", "D3.js", "Firebase", "PWA"],
-    link: "https://example.com",
+      "Conceptualized, designed, & developed patient eye-drop medication reminder app, incorporating push notifications, gamification features, usage statistics, & printable tracking reports. Published to App Store & Google Play. Helped patients improve medication adherence & enabled doctors to monitor patient compliance more effectively.",
+    technologies: ["React Native", "Adobe Illustrator"],
+    github: "https://github.com/Eesha-Jain/iDropCalendar",
   },
 ];
 
