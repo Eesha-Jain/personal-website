@@ -4,11 +4,10 @@ import { Section } from "../components";
 export function Hero(): JSX.Element {
   return (
     <Section id="hero" showTitle={false}>
-      <h1>Eesha Jain</h1>
-      <p className="section-text mt-6">
-        Software engineer passionate about building elegant solutions to complex
-        problems. I love crafting beautiful user experiences and exploring the
-        intersection of design and technology.
+      <h1 className="mb-0">Eesha Jain</h1>
+      <p className="section-text mt-0">
+        software engineer driven by <b>curiosity</b>, <b>rigor</b>, 
+        and <b>passion</b> to tackle <b>hard problems</b>
       </p>
     </Section>
   );

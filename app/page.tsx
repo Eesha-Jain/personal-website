@@ -34,7 +34,13 @@ export default function Home(): JSX.Element {
   return (
     <div className="relative">
       {/* Hero & Wave Transition - 300vh gives the animation enough scroll runway */}
-      <div className="h-[300vh]">
+      <div className="relative h-[300vh]">
+        {/* Snap target for Hero (top) */}
+        <div id="hero-snap" className="absolute top-0 h-screen snap-section" />
+        
+        {/* Snap target for About (after wave transition completes) */}
+        <div id="about-snap" className="absolute top-[100vh] h-[200vh] snap-section" />
+        
         <section 
           className="sticky top-0 min-h-screen overflow-hidden" 
           style={{ background: 'linear-gradient(to bottom, var(--sage-50), var(--sage-100))' }}

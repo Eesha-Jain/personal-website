@@ -14,7 +14,7 @@ const SOCIAL_LINKS: SocialLink[] = [
   {
     id: "github",
     platform: "GitHub",
-    url: "https://github.com/username",
+    url: "https://github.com/Eesha-Jain",
     label: "Check out my code",
     icon: <GitHubIcon size={24} />,
   },
@@ -26,16 +26,9 @@ const SOCIAL_LINKS: SocialLink[] = [
     icon: <LinkedInIcon size={24} />,
   },
   {
-    id: "twitter",
-    platform: "Twitter",
-    url: "https://twitter.com/username",
-    label: "Follow my thoughts",
-    icon: <TwitterIcon size={24} />,
-  },
-  {
     id: "email",
     platform: "Email",
-    url: "mailto:hello@example.com",
+    url: "mailto:eeshaaj@cs.washington.edu",
     label: "Get in touch",
     icon: <EmailIcon size={24} />,
   },
@@ -49,8 +42,9 @@ export function Socials(): JSX.Element {
           <h2>let&apos;s connect</h2>
         </div>
         <p className="section-text-sm mb-8">
-          I&apos;m always open to discussing new opportunities, interesting projects,
-          or just having a chat about technology.
+          I love connecting with curious, ambitious, and thoughtful people. 
+          Whether it's sharing ideas, exchanging perspectives, or exploring ways 
+          to collaborate, I'd love to start a conversation and hear what you're working on.
         </p>
         <div className="flex flex-wrap justify-center gap-6">
           {SOCIAL_LINKS.map((social) => (
