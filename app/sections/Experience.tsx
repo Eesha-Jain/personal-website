@@ -10,9 +10,9 @@ const EXPERIENCES: ExperienceType[] = [
     id: "1",
     company: "FOUND Team, Husky Satellite Lab",
     role: "Software Developer",
-    period: "Sep 2025 – Present",
+    period: "Sep 2025 - Present",
     description:
-      "Contributing to open-source satellite navigation system enabling CubeSats to autonomously determine orbital position through geometric analysis of Earth's horizon in camera imagery, targeting deployment on HuskySat-2 mission. Developing and testing classical computer vision algorithms to achieve sub-pixel precision in horizon identification.",
+      "Implementing Zernike moments for sub-pixel precision of edge detection, with comparable performance to NASA mission. Contributing to open-source satellite navigation system enabling CubeSats to autonomously determine orbital position through edge detection of Earth's horizon in camera imagery, set to deploy in 2028.",
     technologies: ["C++", "Docker"],
     github: ["https://github.com/UWCubeSat/found"],
   },
